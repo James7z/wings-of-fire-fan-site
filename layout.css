@@ -1,0 +1,42 @@
+h1 {
+    font-size: large;
+    font: Arial;
+    color: #221F28;
+}
+
+h2 {
+    color: #524D54;
+}
+
+p {
+    font: 1em sans-serif;
+
+}
+
+.insite-links {
+    border: solid;
+    padding: 5px;
+}
+
+.contact-us {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#wings-of-fire-wallpaper {
+    width: 500px;
+}
+
+.drawings-small {
+    width: 250px;
+}
+
+#drawings-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+
+
+}

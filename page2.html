@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="layout.css">
+</head>
+
+<body>
+
+    <div class="insite-links">
+        <a href="./page1.html" class="homepage">Home</a>
+        <a href="./page2.html" class="contact">Contact</a>
+        <a href="./page3.html" class="other-websites">Other Websites</a>
+        <a href="./page4.html" class="drawings">Drawings</a>
+    </div>
+
+    <form action="form-url" method="post">
+        <fieldset class="contact-us">
+            <legend>Contact us</legend>
+
+            <div>
+                <label for="contact_name">Name:*</label>
+                <input type="text" name="contact_name" id="contact_name">
+            </div>
+
+            <div>
+                <label for="contact_email">Email:*</label>
+                <input type="email" name="contact_email" id="contact_email">
+            </div>
+
+            <div>
+                <input type="checkbox" name="Receive-email" id="Receive-email">
+                <label for="Receive-email">Receive email from us</label>
+            </div>
+
+            <div>
+                <label for="commends">Commends:</label>
+                <textarea name="contact-commends" id="commends"></textarea>
+            </div>
+
+            <div>
+                <button type="submit" id="submit-contact-info">Submit</button>
+                <button type="reset" id="reset-contact-info">Reset</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
